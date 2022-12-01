@@ -1,13 +1,11 @@
-// // import React from 'react';
-// import "bootstrap/dist/css/bootstrap.min.css";
-// import "bootstrap/dist/js/bootstrap.bundle";
+
 import {FaDiscord} from "react-icons/fa"
 import {FaFacebookF} from "react-icons/fa"
 import {FaInstagram} from "react-icons/fa"
 import {FaTelegram} from "react-icons/fa"
 import {FaTwitter} from "react-icons/fa"
 import {FaYoutube} from "react-icons/fa"
-// import {BsDiscord} from "react-icons/fa"
+
 
 
 import Link from "next/link";
