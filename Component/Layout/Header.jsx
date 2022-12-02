@@ -12,7 +12,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <nav className="navbar header   navbar-expand-lg bg-black">
+    <nav className="navbar header sticky-top  navbar-expand-lg bg-black">
       <div className="container-fluid">
         <div className="main d-flex flex-column">
           <div className="forupper">

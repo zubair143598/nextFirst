@@ -7,19 +7,14 @@ const Hero = () => {
         <div className="row">
           <div className="col-md-12">
             <video
-              id="video7"
-              class="hero_video"
-              preload="metadata"
-              autoplay
+             
+              autoPlay
+              src="https://somniumspace.com/images/AvatarsAnimation.mp4"
               loop
-              width={"100%"}
-              height={"auto"}
-            >
-              <source
-                src="https://somniumspace.com/images/AvatarsAnimation.mp4"
-                type="video/mp4"
-              />
-            </video>
+              muted
+              width="100.8%"
+              height="auto"
+            />
           </div>
           <div className="text-white  position-absolute">
             <div className="row">

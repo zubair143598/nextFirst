@@ -10,18 +10,24 @@ import IngameMec from '../Component/Element/IngameMec'
 import Available from '../Component/Element/Available'
 import Partners from '../Component/Element/Partners'
 import Virtual from '../Component/Element/Virtual'
+import Community from '../Component/Element/Community'
+import Calender from '../Component/Element/Calender'
+import Ownership from '../Component/Element/Ownership'
 export default function Home() {
   return (
     <>
     <Header/>
     <Hero/>
     <Banners/>
+    <Ownership/>
     <Virtual/>
     <Available/>  
     <IngameMec/>
     <Available/>
     <Partners/>
     <Available/>
+    <Calender/> 
+    <Community/>
     <Footer/>
     </>
   )
