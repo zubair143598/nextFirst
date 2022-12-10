@@ -38,22 +38,26 @@ const Ownership = () => {
           >
             <img src="./Assists/owner2.png" className="w-50" alt="" />
           </div>
-          <div className="col-lg-6 position-absolute" style={{top: "89rem", left: "27%" }}>
+          <div
+            className="col-lg-6 position-absolute"
+            style={{ top: "89rem", left: "27%" }}
+          >
             <img
               src="./Assists/owner3.png"
               style={{ width: "35%", top: "89rem", left: "27%" }}
               alt=""
             />
           </div>
-          <div className="col-lg-6 position-absolute" style={{top: "89rem", right: "4%" }}>
-            <img
-              src="./Assists/owner5.png"
-              style={{ width: "35%" }}
-              alt=""
-            />
+          <div
+            className="col-lg-6 position-absolute"
+            style={{ top: "89rem", right: "4%" }}
+          >
+            <img src="./Assists/owner5.png" style={{ width: "35%" }} alt="" />
           </div>
         </div>
       </div>
+      <img src="./Assists/ownerbg2.png" className="w-100 position-relative  bg2" alt="" />
+      <img src="./Assists/owner8.png" className="w-100" alt="" />
     </div>
   );
 };
