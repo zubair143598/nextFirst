@@ -20,6 +20,7 @@ export default function Home() {
     <Hero/>
     <Banners/>
     <Ownership/>
+    <Available/>
     <Virtual/>
     <Available/>  
     <IngameMec/>

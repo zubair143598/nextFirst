@@ -2,7 +2,7 @@ import React from "react";
 
 const Ownership = () => {
   return (
-    <div className="Ownership-section">
+    <div className="Ownership-section" style={{marginBottom: "-14px"}}>
       <div className="container-fluid">
         <div className="row">
           <img
@@ -57,7 +57,7 @@ const Ownership = () => {
         </div>
       </div>
       <img src="./Assists/ownerbg2.png" className="w-100 position-relative  bg2" alt="" />
-      <img src="./Assists/owner8.png" className="w-100" alt="" />
+      <img src="./Assists/owner8.png" className="w-100 bg3" alt="" />
     </div>
   );
 };
