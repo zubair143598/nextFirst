@@ -2,11 +2,12 @@ import React from "react";
 
 const Ownership = () => {
   return (
-    <div className="Ownership-section" style={{marginBottom: "-14px"}}>
+    <div className="Ownership-section" style={{ marginBottom: "-14px" }}>
       <div className="container-fluid">
         <div className="row">
           <img
             src="./Assists/bg1.png"
+            style={{zIndex: "108"}}
             className="w-100 p-0 mx-0 position-relative"
             alt=""
           />
@@ -56,8 +57,29 @@ const Ownership = () => {
           </div>
         </div>
       </div>
-      <img src="./Assists/ownerbg2.png" className="w-100 position-relative  bg2" alt="" />
+      <img
+        src="./Assists/ownerbg2.png"
+        className="w-100 position-relative  bg2"
+        alt=""
+      />
       <img src="./Assists/owner8.png" className="w-100 bg3" alt="" />
+      <div className="col-lg-6 p-5 paradiv"  >
+        <h4 style={{marginTop:"21rem"}}>
+          “By tokenizing Somnium In-Game assets and Land Parcels, we are forever
+          decoupling Somnium Space as a company from owning and operating
+          database of parcels and all in- game items by giving this power to our
+          users”
+        </h4>
+        <ul className="mt-5">
+          <li className="fs-4  fw-bolder">A Blockchain VR Metaverse</li>
+          <li className="fs-4 mt-2 fw-bolder">Security of Ownership</li>
+          <li className="fs-4 mt-2 fw-bolder">Authenticity of Origin</li>
+          <li className="fs-4 mt-2 fw-bolder">Built with proven & secure standards</li>
+          <li className="fs-4 mt-2 fw-bolder">Tradable via decentralized Marketplaces</li>
+          <li className="fs-4 mt-2 fw-bolder">Built with proven & secure standards</li>
+          <li className="fs-4 mt-2 fw-bolder" style={{paddingBottom:"18rem"}}>Cross-platform VR Client</li>
+        </ul>
+      </div>
     </div>
   );
 };

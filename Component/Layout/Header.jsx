@@ -127,6 +127,9 @@ const Header = () => {
                 </Link>
               </li>
             </ul>
+            <div>
+                <p className="ms-5 p2 ">Join SOMNIUM</p>
+              </div>
           </div>
         </div>
       </div>
